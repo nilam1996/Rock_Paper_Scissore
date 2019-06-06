@@ -22,10 +22,10 @@ while True:
 		print  "you winner "
 	else:
 		print "you are looser"
-	raw_input1=raw_input("Enter y/n")
-	if raw_input1=="y":
+	again_input=raw_input("Enter y/n")
+	if again_input=="y":
 		continue
-	elif raw_input1=="n":
+	elif again_input=="n":
 		break
 
 
